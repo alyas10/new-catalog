@@ -22,7 +22,7 @@ private static void BubbleSort(int[] array)
 {
 //Итоговая сложность O(N^2)
     for (int i = 0; i < array.Length; i++) //O(N)
-        for (int j = 0; j < array.Length - 1; j++)//O(N)
+        for (int j = 0; j < array.Length - 1; j++)//O(N-1)
             if (array[j] > array[j + 1])
             {
                 int t = array[j + 1];
@@ -44,6 +44,9 @@ private static int[] GenerateArray(int length)
     var array = new int[length];
     for (int i = 0; i < array.Length; i++)
         array[i] = random.Next();
+//можно использовать вариации например: 
+// array[i] = random.Next(100);
+// array[i] = random.Next(-100,100);
     return array;
 }
 ```
