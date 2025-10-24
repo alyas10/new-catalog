@@ -306,4 +306,12 @@ Console.WriteLine($"6 число Фибоначчи = {fib6}");
 
 <https://recursion.vercel.app/>
 
+Ханойские башни:
+
+<https://csharpstar.com/towers-of-hanoi-in-csharp/>
+
+<https://education.yandex.ru/handbook/algorithms/article/rekursivnye-algoritmy>
+
+[video:https://rutube.ru/video/eb6065b35f3105952c206269d5efb376/?r=wd]
+
 
