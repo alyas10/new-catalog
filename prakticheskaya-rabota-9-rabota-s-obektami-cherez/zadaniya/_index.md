@@ -44,20 +44,20 @@ title: Задания
 ● Класс \[БАЗОВЫЙ\_КЛАСС\] должен иметь публичный метод – процедуру МЕТОД\_ИЗМЕНЕНИЯ, изменяющую \[параметр\];\
 ● Создать три объекта класса \[БАЗОВЫЙ\_КЛАСС\] различными способами;
 
-| №  | \[БАЗОВЫЙ\_КЛАСС\] | private поле | public поле       | Метод изменения           |
-|----|--------------------|--------------|-------------------|---------------------------|
-| 0  | `Book`             | `title`      | `Pages`           | `AddPages(int n)`         |
-| 1  | `Car`              | `model`      | `Year`            | `MakeOlder()`             |
-| 2  | `Movie`            | `title`      | `DurationMinutes` | `Extend(int min)`         |
-| 3  | `Course`           | `name`       | `Hours`           | `AddHours(int h)`         |
-| 4  | `Player`           | `nickname`   | `Level`           | `LevelUp()`               |
-| 5  | `Pet`              | `name`       | `Age`             | `BecomeOlder()`           |
-| 6  | `Employee`         | `fullName`   | `ExperienceYears` | `AddExperience(int y)`    |
-| 7  | `Room`             | `number`     | `Capacity`        | `IncreaseCapacity(int n)` |
-| 8  | `Product`          | `name`       | `Quantity`        | `AddStock(int n)`         |
-| 9  | `Station`          | `title`      | `Platforms`       | `AddPlatform()`           |
-| 10 | `Gadget`           | `model`      | `WarrantyYears`   | `ExtendWarranty(int y)`   |
-| 11 | `Account`          | `ownerName`  | `Balance`         | `Deposit(decimal sum)`    |
+| №  | \[БАЗОВЫЙ\_КЛАСС\] | private поле  | public поле     | Метод изменения                |
+|----|--------------------|---------------|-----------------|--------------------------------|
+| 1  | Car                | model         | Year            | MakeOlder()                    |
+| 2  | Movie              | title         | DurationMinutes | Extend(int min)                |
+| 3  | Course             | name          | Hours           | AddHours(int h)                |
+| 4  | Player             | nickname      | Level           | LevelUp()                      |
+| 5  | Pet                | name          | Age             | BecomeOlder()                  |
+| 6  | Employee           | fullName      | ExperienceYears | AddExperience(int y)           |
+| 7  | Room               | number        | Capacity        | IncreaseCapacity(int n)        |
+| 8  | Product            | name          | Quantity        | AddStock(int n)                |
+| 9  | Station            | title         | Platforms       | AddPlatform()                  |
+| 10 | Gadget             | model         | WarrantyYears   | ExtendWarranty(int y)          |
+| 11 | Account            | ownerName     | Balance         | Deposit(decimal sum)           |
+| 12 | Project            | \_projectName | Budget          | IncreaseBudget(decimal amount) |
 
 ### **Задание 2.** Создать для класса \[БАЗОВЫЙ\_КЛАСС\] базовый абстрактный класс
 
