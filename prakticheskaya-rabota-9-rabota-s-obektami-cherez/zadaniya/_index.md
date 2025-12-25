@@ -78,392 +78,392 @@ title: Задания
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
-   №
+   **№**
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   \[АБСТРАКТНЫЙ\_БАЗОВЫЙ\]
+   **\[АБСТРАКТНЫЙ\_БАЗОВЫЙ\]**
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   \[СПЕЦИАЛИЗИРОВАННЫЙ\_КЛАСС\]
+   **\[СПЕЦИАЛИЗИРОВАННЫЙ\_КЛАСС\]**
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   \[БАЗОВЫЙ\_ИНТЕРФЕЙС\]
+   **\[БАЗОВЫЙ\_ИНТЕРФЕЙС\]**
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   \[СПЕЦИАЛИЗИРОВАННЫЙ\_ИНТЕРФЕЙС\]
+   **\[СПЕЦИАЛИЗИРОВАННЫЙ\_ИНТЕРФЕЙС\]**
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   \[ПОЛЕ\_КЛАСС\]
+   **\[ПОЛЕ\_КЛАСС\]**
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   \[ИСКЛЮЧЕНИЕ\_КЛАСС\]
-
----
-
-*  {% colwidth=[82] %}
-
-   0
-
-*  {% colwidth=[165.429] %}
-
-   `Publication`
-
-*  {% colwidth=[176.429] %}
-
-   `EBook`
-
-*  {% colwidth=[134.429] %}
-
-   `IPublication`
-
-*  {% colwidth=[204.429] %}
-
-   `IDigital`
-
-*  {% colwidth=[167.429] %}
-
-   `Author`
-
-*  {% colwidth=[178.429] %}
-
-   `PublicationException`
+   **\[ИСКЛЮЧЕНИЕ\_КЛАСС\]**
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    1
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `VehicleBase`
+   ContentUnit
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `Truck`
+   WebDocument
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IVehicle`
+   IContent
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `ICommercialVehicle`
+   IOnlineContent
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Manufacturer`
+   Publisher
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `VehicleException`
+   ContentException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    2
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `MediaBase`
+   VehicleBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `Documentary`
+   Truck
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IMedia`
+   IVehicle
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IDocumentary`
+   ICommercialVehicle
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Director`
+   Manufacturer
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `MediaException`
+   VehicleException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    3
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `CourseBase`
+   MediaBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `AdvancedCourse`
+   Documentary
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `ICourse`
+   IMedia
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IAdvancedCourse`
+   IDocumentary
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Instructor`
+   Director
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `CourseException`
+   MediaException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    4
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `PlayerBase`
+   CourseBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `ProPlayer`
+   AdvancedCourse
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IPlayer`
+   ICourse
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IProPlayer`
+   IAdvancedCourse
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Team`
+   Instructor
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `PlayerException`
+   CourseException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    5
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `AnimalBase`
+   PlayerBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `ExoticPet`
+   ProPlayer
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IAnimal`
+   IPlayer
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IExoticPet`
+   IProPlayer
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Veterinarian`
+   Team
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `PetException`
+   PlayerException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    6
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `WorkerBase`
+   AnimalBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `SeniorEmployee`
+   ExoticPet
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IWorker`
+   IAnimal
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `ISeniorWorker`
+   IExoticPet
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Department`
+   Veterinarian
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `EmployeeException`
+   PetException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    7
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `RoomBase`
+   WorkerBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `Suite`
+   SeniorEmployee
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IRoom`
+   IWorker
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `ILuxuryRoom`
+   ISeniorWorker
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Hotel`
+   Department
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `RoomException`
+   EmployeeException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    8
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `ItemBase`
+   RoomBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `PremiumProduct`
+   Suite
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IItem`
+   IRoom
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IPremiumItem`
+   ILuxuryRoom
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Category`
+   Hotel
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `ProductException`
+   RoomException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    9
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `StationBase`
+   ItemBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `MetroStation`
+   PremiumProduct
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IStation`
+   IItem
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IMetroStation`
+   IPremiumItem
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Line`
+   Category
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `StationException`
+   ProductException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    10
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `DeviceBase`
+   StationBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `PremiumGadget`
+   MetroStation
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IDevice`
+   IStation
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IPremiumDevice`
+   IMetroStation
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Brand`
+   Line
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `GadgetException`
+   StationException
 
 ---
 
-*  {% colwidth=[82] %}
+*  {% colwidth=[111.429] %}
 
    11
 
-*  {% colwidth=[165.429] %}
+*  {% colwidth=[281.429] %}
 
-   `AccountBase`
+   DeviceBase
 
-*  {% colwidth=[176.429] %}
+*  {% colwidth=[323.429] %}
 
-   `PremiumAccount`
+   PremiumGadget
 
-*  {% colwidth=[134.429] %}
+*  {% colwidth=[241.429] %}
 
-   `IAccount`
+   IDevice
 
-*  {% colwidth=[204.429] %}
+*  {% colwidth=[248.429] %}
 
-   `IPremiumAccount`
+   IPremiumDevice
 
-*  {% colwidth=[167.429] %}
+*  {% colwidth=[173.429] %}
 
-   `Bank`
+   Brand
 
-*  {% colwidth=[178.429] %}
+*  {% colwidth=[150] %}
 
-   `AccountException`
+   GadgetException
+
+---
+
+*  {% colwidth=[111.429] %}
+
+   12
+
+*  {% colwidth=[281.429] %}
+
+   AccountBase
+
+*  {% colwidth=[323.429] %}
+
+   PremiumAccount
+
+*  {% colwidth=[241.429] %}
+
+   IAccount
+
+*  {% colwidth=[248.429] %}
+
+   IPremiumAccount
+
+*  {% colwidth=[173.429] %}
+
+   Bank
+
+*  {% colwidth=[150] %}
+
+   AccountException
 
 {% /table %}
