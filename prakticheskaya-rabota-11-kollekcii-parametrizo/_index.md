@@ -13,7 +13,7 @@ title: Практическая работа №11. Коллекции. Пара
 
 Рис. 3.1. Иерархия интерфейсов System.Collections
 
-![](./prakticheskaya-rabota-11-kollekcii-parametrizo.png){width=1289px height=855px}
+![](./_index.png){width=1289px height=855px}
 
 
 
