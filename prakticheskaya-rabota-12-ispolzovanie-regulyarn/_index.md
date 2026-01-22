@@ -23,9 +23,9 @@ iCountMatchs = me.Count
 
 где re – это объект типа Regex. В конструкторе ему передается образец поиска и опции.
 
-![](./prakticheskaya-rabota-12-ispolzovanie-regulyarn.png){width=1313px height=757px}
+![](./_index.png){width=1313px height=757px}
 
-![](./prakticheskaya-rabota-12-ispolzovanie-regulyarn-2.png){width=1312px height=1086px}
+![](./_index-2.png){width=1312px height=1086px}
 
 ### Класс Regex
 
