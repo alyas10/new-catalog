@@ -336,7 +336,7 @@ public class Program
 
 Скриншот работы программы представлен на рисунке 1:
 
-![](./prakticheskaya-rabota-10-rabota-s-tipom-dannykh.png){width=918px height=956px}
+![](./_index.png){width=918px height=956px}
 
 ```
                                                         Рисунок 1 – Выполнение программы
