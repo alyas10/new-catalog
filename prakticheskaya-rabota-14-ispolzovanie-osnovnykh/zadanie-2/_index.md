@@ -3,6 +3,8 @@ order: 2
 title: Задание 2
 ---
 
+### Задание выполняется в группах. 1 вариант - 1 группа. Группа 2- 3 человека.
+
 ## Вариант 1: Автомобили (на основе List\<T>)
 
 ### Часть 1: Реализация CollectionType\<T>
@@ -257,4 +259,56 @@ Employee: Id (int), Name (string), Department (string), Salary (double), Experie
 
 -  Найти библиотеку с максимальным количеством страниц всего
 
--  Найти библиотеку с минимальным среднимколичеством страниц
+-  Найти библиотеку с минимальным средним количеством страниц
+
+## Вариант 6: Пациенты клиники (на основе Stack\<T>)
+
+### Часть 1: Реализация CollectionType\<T>
+
+Создайте класс `PatientStack<T>` на основе `Stack<T>` для управления стеком пациентов.
+
+**Требования:**
+
+-  Конструкторы (пустой, с параметром)
+
+-  Методы: `Push(T item)`, `Pop()`, `Peek()`, `Clear()`, `FindByDoctor(string doctor)`
+
+-  Индексатор для доступа элемента
+
+-  Свойства: `Count`, `IsEmpty`, `AverageCost`
+
+-  Перегруженный оператор `-` для удаления по диагнозу
+
+-  Обработка исключений (InvalidOperationException, ArgumentNullException)
+
+**Структура класса Patient:**
+
+```
+Patient: Id (int), Name (string), Diagnosis (string), Doctor (string), Age (int), Cost (double)
+```
+
+### Часть 2: LINQ запросы
+
+Создайте стек из 10+ пациентов, используя  `PatientStack<T>`. Выполните запросы:
+
+1. `Where (Age > 60) + OrderByDescending (Age) + Select (Name + Age + Doctor) + Take (5)` -- пожилые пациенты
+
+2. `GroupBy (Doctor) + Select (Doctor + Count + AvgCost) + OrderByDescending (Count) + Take (4)` -- нагрузка врачей
+
+3. `Where (Diagnosis == "Простуда") + OrderBy (Age) + Skip (1) + Take (3)` -- больные гриппом
+
+4. `All (Age >= 18) + Any (Cost > 10000) + SelectMany (Diagnosis) + Distinct` -- все взрослые, есть ли дорогое
+
+5. `OrderByDescending (Cost) + ThenBy (Name) + Select (new {Name, Diagnosis, Doctor, Cost})` -- сортировка по стоимости
+
+### Часть 3: Массив PatientStack
+
+Создайте массив из 3 объектов `PatientStack<Patient>` размерами (7, 6, 7 элементов).
+
+**Запросы:**
+
+-  Найти количество стеков размером ровно 7
+
+-  Найти стек с максимальной общей стоимостью лечения
+
+-  Найти стек с минимальным среднимвозрастом пациентов
