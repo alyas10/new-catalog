@@ -5,4 +5,4 @@ title: Задание 3
 
 Разработать приложение WPF со следующим графическим интерфейсом:
 
-![](./zadanie-29.png){width=743px height=279px}
+![](./zadanie-29.png){width=1138px height=390px}
